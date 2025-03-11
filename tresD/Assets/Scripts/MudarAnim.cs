@@ -15,14 +15,14 @@ public class MudarAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            
+            controller.SetTrigger("muda");
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S))
         {
-
+            controller.SetTrigger("desmuda");
         }
     }
 }
