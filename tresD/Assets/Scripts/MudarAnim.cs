@@ -24,5 +24,5 @@ public class MudarAnim : MonoBehaviour
         {
             controller.SetTrigger("desmuda");
         }
-    }
+    }     
 }
